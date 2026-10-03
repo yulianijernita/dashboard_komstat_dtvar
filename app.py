@@ -16,7 +16,7 @@ from evaluation.performance import run_experiments, best_per_algorithm, backtest
 from visualization.plots import plot_convergence
 
 st.set_page_config(page_title="Optimasi DTVaR", layout="wide")
-st.title("Optimasi DTVaR — Weibull + FGM Copula")
+st.title("OPTIMISASI UKURAN RISIKO")
 
 # ----------------------------------------------------------------------
 # Session state

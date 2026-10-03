@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+venv/
+venv312/
+venv3124/
+venv_jax_test/
+.env

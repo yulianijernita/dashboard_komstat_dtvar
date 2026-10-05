@@ -20,5 +20,5 @@ def get_bounds(alpha, delta):
     mu_lo, mu_hi = config.DEFAULT_BOUNDS["mu"]
     ka_lo, ka_hi = config.DEFAULT_BOUNDS["kappa"]
     lower = np.array([alpha, delta, mu_lo, ka_lo])
-    upper = np.array([0.9999, 0.9999, mu_hi, ka_hi])
+    upper = np.array([1, 1, 10, 1000])
     return lower, upper

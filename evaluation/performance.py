@@ -22,7 +22,7 @@ def build_optimizer(name, bench, params):
                             bounds, **params)
 
 
-def run_experiments(bench, algo_params, n_runs=3, seed=0, progress_cb=None):
+def run_experiments(bench, algo_params, n_runs=10, seed=None, progress_cb=None):
     """
     algo_params: {"PSO": {...}, "DE": {...}, ...} (hanya algoritma yang dipilih).
     Return: (DataFrame semua percobaan, dict kurva konvergensi {(algo, run): [...]}).
